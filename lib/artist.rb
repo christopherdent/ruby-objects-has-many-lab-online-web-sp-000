@@ -10,7 +10,11 @@ class Artist
   end 
   
   def songs 
+<<<<<<< HEAD
     Song.all 
+=======
+    Song.all_songs 
+>>>>>>> 01a8191b7cc0dbc342acf7fa873b3f7c0f39056c
   end 
   
   def add_song(song) 
@@ -23,7 +27,11 @@ class Artist
   end 
  
    def self.song_count
+<<<<<<< HEAD
     Song.all.count 
+=======
+    Song.all_songs.count 
+>>>>>>> 01a8191b7cc0dbc342acf7fa873b3f7c0f39056c
   end 
 end 
 

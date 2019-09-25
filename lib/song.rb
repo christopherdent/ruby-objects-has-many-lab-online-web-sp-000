@@ -13,6 +13,7 @@ class Song
     @@all << self
   end 
   
+<<<<<<< HEAD
   def self.all
     @@all
   end 
@@ -26,4 +27,10 @@ class Song
 end 
   
   
+=======
+  def self.all_songs
+    @@all
+  end 
+  
+>>>>>>> 01a8191b7cc0dbc342acf7fa873b3f7c0f39056c
 end 
